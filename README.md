@@ -1,22 +1,20 @@
-# 🛒 Customer Segmentation with K-Means Clustering
+# Customer Segmentation with K-Means Clustering
 ### Segmentasi Pelanggan Grosir Menggunakan Machine Learning
 
-[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/USERNAME/customer-segmentation-kmeans/blob/main/customer_segmentation.ipynb)
+[![Open in Colab]()](https://colab.research.google.com/github/znafisssss/customer-segmentation-kmeans/blob/main/customer_segmentation.ipynb)
 ![Python](https://img.shields.io/badge/Python-3.10-blue?logo=python)
 ![scikit-learn](https://img.shields.io/badge/scikit--learn-1.2-orange?logo=scikit-learn)
 ![Status](https://img.shields.io/badge/Status-Complete-brightgreen)
 
 ---
 
-## 📌 Deskripsi Proyek
+## Deskripsi Proyek
 
 Proyek ini menerapkan algoritma **K-Means Clustering** untuk mengelompokkan pelanggan grosir berdasarkan pola pengeluaran tahunan mereka di enam kategori produk. Hasil segmentasi diintegrasikan ke dalam kerangka **Business Intelligence** untuk menghasilkan rekomendasi strategi pemasaran yang lebih terarah dan berbasis data.
 
-> 💡 **Business Problem:** Perusahaan grosir kesulitan memahami karakteristik pelanggan secara individual. Dengan segmentasi berbasis data, strategi pemasaran, promosi, dan layanan dapat disesuaikan per segmen pelanggan.
+> **Business Problem:** Perusahaan grosir kesulitan memahami karakteristik pelanggan secara individual. Dengan segmentasi berbasis data, strategi pemasaran, promosi, dan layanan dapat disesuaikan per segmen pelanggan.
 
----
-
-## 📊 Dataset
+## Dataset
 
 | Aspek | Detail |
 |-------|--------|
@@ -25,9 +23,7 @@ Proyek ini menerapkan algoritma **K-Means Clustering** untuk mengelompokkan pela
 | **Ukuran** | 440 baris × 8 kolom |
 | **Fitur** | Channel, Region, Fresh, Milk, Grocery, Frozen, Detergents_Paper, Delicassen |
 
----
-
-## 🔧 Teknologi yang Digunakan
+## Teknologi yang Digunakan
 
 - **Python** — bahasa pemrograman utama
 - **Pandas & NumPy** — manipulasi dan analisis data
@@ -36,9 +32,7 @@ Proyek ini menerapkan algoritma **K-Means Clustering** untuk mengelompokkan pela
 - **Jupyter Notebook** — environment pengembangan
 - **Power BI** — dashboard Business Intelligence
 
----
-
-## 🚀 Alur Analisis
+## Alur Analisis
 
 ```
 Dataset → EDA → Preprocessing → Elbow Method → K-Means → Evaluasi → Visualisasi → Business Insight
@@ -52,9 +46,7 @@ Dataset → EDA → Preprocessing → Elbow Method → K-Means → Evaluasi → 
 6. **Visualisasi** — PCA 2D scatter plot, bar chart, radar chart
 7. **Business Insight** — rekomendasi strategi per segmen
 
----
-
-## 📈 Hasil Segmentasi
+## Hasil Segmentasi
 
 | Klaster | Profil | Jumlah Pelanggan | Karakteristik Utama |
 |---------|--------|:-----------------:|---------------------|
@@ -68,28 +60,26 @@ Dataset → EDA → Preprocessing → Elbow Method → K-Means → Evaluasi → 
 | Silhouette Score (K=3) | **0.548** | Cukup baik — klaster terbentuk jelas |
 | Metode pemilihan K | Elbow Method | Titik siku di K=3 |
 
----
 
-## 💡 Business Insight & Rekomendasi
+## Business Insight & Rekomendasi
 
-### 🔵 Klaster 0 — Pelanggan Grocery & Retail
+### Klaster 0 — Pelanggan Grocery & Retail
 - Buat program loyalitas B2B dan diskon grosir khusus
 - Tawarkan kontrak pembelian jangka panjang
 - Fokus efisiensi suplai produk grocery & household
 
-### 🟠 Klaster 1 — Pelanggan Umum (Mayoritas)
+### Klaster 1 — Pelanggan Umum (Mayoritas)
 - Kampanye promosi reguler dan bundling produk hemat
 - Edukasi produk untuk mendorong upselling
 - Program loyalitas dengan sistem poin atau cashback
 
-### 🟢 Klaster 2 — Pelanggan VIP
+### Klaster 2 — Pelanggan VIP
 - Layanan personal dengan account manager khusus
 - Tawarkan produk eksklusif, impor, atau private label
 - Pertahankan relasi dengan pendekatan langsung & kontrak premium
 
----
 
-## 📁 Struktur Repo
+## Struktur Repo
 
 ```
 customer-segmentation-kmeans/
@@ -100,7 +90,6 @@ customer-segmentation-kmeans/
 └── 📄 README.md                     # Dokumentasi proyek ini
 ```
 
----
 
 ## ⚙️ Cara Menjalankan
 
@@ -120,26 +109,23 @@ pip install -r requirements.txt
 jupyter notebook customer_segmentation.ipynb
 ```
 
----
-
-## 🔮 Saran Pengembangan
+## Saran Pengembangan
 
 - [ ] Tambahkan fitur **RFM Analysis** (Recency, Frequency, Monetary)
 - [ ] Bandingkan dengan metode lain: **Hierarchical Clustering** atau **DBSCAN**
 - [ ] Buat **dashboard interaktif** dengan Streamlit atau Tableau Public
 - [ ] Tangani outlier sebelum clustering untuk hasil yang lebih robust
 
----
 
-## 📚 Referensi
+## Referensi
 
 - Dua, D. & Graff, C. (2021). *Wholesale Customers Data Set*. UCI Machine Learning Repository. https://archive.ics.uci.edu/ml/datasets/Wholesale+customers
 - Scikit-learn Documentation — Clustering: https://scikit-learn.org/stable/modules/clustering.html
 
 ---
 
-## 👩‍💻 Author
+## Author
 
 **Zahrotun Nafisah**  
 Sistem Informasi 2022  
-📧 [email kamu] | 🔗 [LinkedIn kamu]
+📧 znafisssss@gmail.com | 🔗 www.linkedin.com/in/zahrotun-nafisah
