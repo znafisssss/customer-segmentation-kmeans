@@ -1,7 +1,7 @@
 # Customer Segmentation with K-Means Clustering
 ### Segmentasi Pelanggan Grosir Menggunakan Machine Learning
 
-[![Open in Colab]()](https://colab.research.google.com/github/znafisssss/customer-segmentation-kmeans/blob/main/customer_segmentation.ipynb)
+[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/znafisssss/customer-segmentation-kmeans/blob/main/customer_segmentation.ipynb)
 ![Python](https://img.shields.io/badge/Python-3.10-blue?logo=python)
 ![scikit-learn](https://img.shields.io/badge/scikit--learn-1.2-orange?logo=scikit-learn)
 ![Status](https://img.shields.io/badge/Status-Complete-brightgreen)
